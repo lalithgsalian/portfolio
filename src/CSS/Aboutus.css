@@ -1,0 +1,64 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 0;
+    background-color:black;
+}
+
+.pic{
+    height: 185px;
+    width: 175px;
+    padding: 30px;
+}
+
+.aboutme{
+    color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.Education{
+    color: white;
+    padding: 20px;
+}
+.twoinone{
+    display: flex;
+}
+@media only screen and (max-width:600px){
+    .twoinone{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.picture{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    word-spacing: 5px;
+    line-height: 25px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h1{
+    text-align: center;
+    font-style: italic;
+}
+.Education:hover{
+    transform: translateY(5px);
+    transition: 2s;
+    background-color:aqua;
+    color:black;
+    border-radius: 20px;
+}
+.Main{
+    padding: 20px;
+}
+.aboutme:hover{
+    transform: translateY(5px);
+    transition: 2s;
+    background-color: aqua;
+    color:black;
+    border-radius: 20px;
+}

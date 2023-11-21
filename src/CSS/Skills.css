@@ -1,0 +1,57 @@
+.skills{
+    background-color:aliceblue;
+    margin: 20px;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 20px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px black;
+}
+
+ul {
+    list-style-type: circle;
+    
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.certificate{
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px black;
+}
+
+h2{
+    text-align: center;
+    text-decoration:underline black;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-style:italic;
+}
+
+.certificate:hover{
+    transform: translateY(15px);
+    transition: 2s;
+    background-color: aqua;
+}
+
+.skills:hover{
+    transform: translateY(15px);
+    transition: 2s;
+    background-color: aqua;
+}
+
+.certificate ul{
+    list-style-type: square;
+}
+.footer
+{
+position:fixed;
+bottom:0px;
+padding: 2px;
+width: 100%;
+}

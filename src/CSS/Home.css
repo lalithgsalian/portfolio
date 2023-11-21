@@ -1,0 +1,11 @@
+.footer
+{
+position:fixed;
+bottom:0px;
+padding: 2px;
+width: 100%;
+}
+.header{
+    color: white;
+    text-align: center;
+}

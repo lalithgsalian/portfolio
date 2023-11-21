@@ -1,0 +1,56 @@
+.contact{
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 5px solid black;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.contact:hover{
+    transform: translateY(10px);
+    transition: 2s;
+    background-color: aqua;
+}
+/* .footer
+{
+position:fixed;
+bottom:0px;
+padding: 2px;
+width: 100%;
+} */
+.forms{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.Submit{
+    height: 30px;
+    width: 80px;
+}
+
+input,textarea{
+    border-radius: 10px;
+    background-color:chartreuse;
+    border: 5px solid white;
+}
+input{
+    height: 30px;
+    font-style: italic;
+}
+
+.Submit{
+    height:40px;
+    background-color: chartreuse;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+caption{
+    font-weight: 700;
+    font-size: 40px;
+}
+.insta .phone .linkedin{
+    height: 50px;
+    width: 60px;
+}
