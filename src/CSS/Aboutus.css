@@ -24,6 +24,7 @@ body {
 .Education{
     color: white;
     padding: 20px;
+    font-size: 20px;
 }
 .twoinone{
     display: flex;
