@@ -7,6 +7,7 @@ import Home from './Components/Home';
 import Contact from './Components/Contact';
 import {BrowserRouter, Route,Routes} from 'react-router-dom';
 import Skill1 from './Components/Skill1';
+import Footer from './Components/Footer';
 function App() {
   return (
     <div className="App">
@@ -19,7 +20,7 @@ function App() {
         <Route path='/contact' element={<Contact />}/>
         <Route path='/skill1' element={<Skill1 />}/>
       </Routes>
-      
+      <Footer />
       </BrowserRouter>
   
     </div>
