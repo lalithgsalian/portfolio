@@ -16,6 +16,9 @@ function Home() {
 <About />
 <Skill1 />
 <Contact />
+<div class="footer">
+            <p>&copy; 2023 Lalith. All rights reserved.</p>
+        </div> 
     </div>
   )
 }
