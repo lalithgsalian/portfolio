@@ -30,16 +30,17 @@ function Navbar() {
                 :
                 <Link to={'/About'} >About</Link>
                 }
-                {(ActiveNav==='/Skills')?
+                  {(ActiveNav==='/skill1')?
                 ""
                 :
-                <Link to={'Skills'} >Skills</Link>
+                <Link to={'/skill1'} onClick={()=>hamburger(false)}>Skills</Link>
                 }
                  {(ActiveNav==='/Contact')?
                 ""
                 :
                 <Link to={'/Contact'} onClick={()=>hamburger(false)}>Contact</Link>
                 }
+               
         </ul>
         </div>
             {
@@ -69,13 +70,13 @@ function Navbar() {
                   <Link to={'/About'} onClick={()=>hamburger(false)}>About</Link>
                   </li>
                }
-               {(ActiveNav==='/Skills')?
+               {(ActiveNav==='/Skill1')?
                 ""
                 :
                 <li>
-                  <Link to={'/Skills'} onClick={()=>hamburger(false)}>Skills</Link>
+                  <Link to={'/Skill1'} onClick={()=>hamburger(false)}>Skills</Link>
                   </li>
-}
+                }
                 {(ActiveNav==='/Contact')?
                 ""
                 :
@@ -84,7 +85,7 @@ function Navbar() {
                 </li>
                 }
                 </ul>
-                <span className="closebutton" onClick={()=>hamburger(false)}>&times;</span>
+                <span className="closebutton" onClick={()=>hamburger(false)}>X</span>
               </div>
 
               :

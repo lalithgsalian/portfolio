@@ -23,6 +23,7 @@ width: 100%;
     color: white;
     display: flex;
     justify-content: center;
+    padding-top: 20px;
 }
 .Submit{
     height: 30px;
@@ -50,7 +51,15 @@ caption{
     font-weight: 700;
     font-size: 40px;
 }
-.insta .phone .linkedin{
+.insta{
+    height: 50px;
+    width: 60px;
+}
+.linkedin{
+    height: 50px;
+    width: 60px;
+}
+.phone{
     height: 50px;
     width: 60px;
 }

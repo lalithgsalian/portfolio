@@ -1,19 +1,20 @@
 import React from 'react'
 import '../CSS/Home.css'
 import About from './About'
-import Skills from './Skills'
+
 import Contact from './Contact'
+import Skill1 from './Skill1'
 function Home() {
   return (
     <div>
          <div className="header">
             
-            <h1>Lalith</h1>
-            <p>Web Developer</p>
+            <h1>Lalith G Salian</h1>
+            <h2 className='home'>Web Developer</h2>
             
         </div>
 <About />
-<Skills />
+<Skill1 />
 <Contact />
     </div>
   )

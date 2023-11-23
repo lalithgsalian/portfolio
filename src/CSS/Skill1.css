@@ -1,0 +1,31 @@
+.h2{
+color:blue;
+padding-top: 10px;
+font-size: 25px;
+text-decoration: underline black;
+}
+.h1{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+
+.cards{
+    background-color:aliceblue;
+    color: black;
+    border-radius: 10px;
+}
+body{
+    margin: 20px;
+}
+
+.cards:hover{
+    transform: translateY(5px);
+    transition:2s;
+    background-color: aqua;
+    color: black;
+    
+}
+.cards{
+    text-align: center;
+}

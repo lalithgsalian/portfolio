@@ -47,6 +47,7 @@ h2{
 
 .certificate ul{
     list-style-type: square;
+    line-height: 25px;
 }
 .footer
 {

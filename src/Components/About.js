@@ -10,7 +10,7 @@ function About() {
        </div>
     
         <div className="aboutme">
-            <h2>About Me</h2>
+            <h2 className='center'>About Me</h2>
             <p>
                 Welcome to my portfolio! I'm a passionate web developer with a strong background in HTML, CSS, and JavaScript.
                 I love creating responsive and user-friendly websites. When I'm not coding, you can find me exploring new technologies

@@ -9,12 +9,16 @@ body {
     height: 185px;
     width: 175px;
     padding: 30px;
+    border-radius: 60%;
 }
 
 .aboutme{
     color: white;
     padding-right: 30px;
     padding-left: 30px;
+    background-color: aqua;
+    color:black;
+    border-radius: 20px;
 }
 .Education{
     color: white;
@@ -32,6 +36,7 @@ body {
 .picture{
     display: flex;
     justify-content: center;
+    
 }
 
 p{
@@ -61,4 +66,12 @@ h1{
     background-color: aqua;
     color:black;
     border-radius: 20px;
+}
+
+.Education li{
+    line-height: 25px;
+}
+
+.center{
+    text-align: center;
 }
