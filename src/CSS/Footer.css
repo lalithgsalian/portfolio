@@ -9,7 +9,8 @@ width: 100%;
 color:white;
 text-align: center;
 background-color: black;
-font-size: larger;
+font-size: small;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 border: 2px solid white;
+margin-top: 15px;
 }
