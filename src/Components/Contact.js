@@ -2,6 +2,7 @@
 import '../CSS/Contact.css'
 import insta from '../images/insta.svg'
 import linkedin from '../images/linkedin.svg'
+import Github from '../images/Github.svg'
 import phone from '../images/phone.svg'
 import gear from '../images/Gear.gif'
 import React, { useRef,useState } from 'react';
@@ -59,11 +60,19 @@ function Contact() {
           <div className="contact">
             
             <h2>Contact</h2>
+            <a href="https://instagram.com/__lalith.__" alt="" target='blank'>
             <img src={insta} alt='' className='insta'></img>
+            </a>
+            <a href="https://linkedin.com/lalithsalian" alt="" target='blank'>
             <img src={linkedin} alt='' className='linkedin'></img>
+            </a>
             <img src={phone} alt='' className='phone'></img>
+            <a href="https://github.com/lalithgsalian" alt="" target='blank'>
+            <img src={Github} alt="" className='Github'></img>
+            </a>
             <p>Phone: 9148273470</p>
             <p>Email: 53lalith@gmail.com</p>
+            <p>GitHub:github.com/lalithgsalian</p>
             <p>LinkedIn: linkedin.com/in/lalithsalian</p>
           </div>
     
