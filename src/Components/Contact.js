@@ -60,7 +60,7 @@ function Contact() {
           <div className="contact">
             
             <h2>Contact</h2>
-            <a href="https://instagram.com/__lalith.__" alt="" target='blank'>
+            <a href="https://instagram.com/_____lalith._____" alt="" target='blank'>
             <img src={insta} alt='' className='insta'></img>
             </a>
             <a href="https://linkedin.com/lalithsalian" alt="" target='blank'>
